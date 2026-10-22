@@ -1,0 +1,21 @@
+# clasp project binding — contains the Apps Script project id
+.clasp.json
+.clasprc.json
+
+# Never commit credentials. Secrets belong in Script Properties.
+.env
+*.key
+*.pem
+credentials.json
+token.json
+
+# Local exports / scratch data. Account rosters must not end up in git.
+*.csv
+*.tsv
+exports/
+samples/local/
+
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
